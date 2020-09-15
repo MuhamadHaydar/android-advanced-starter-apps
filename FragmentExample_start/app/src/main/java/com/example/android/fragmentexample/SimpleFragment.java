@@ -21,7 +21,10 @@ public class SimpleFragment extends Fragment {
         // Required empty public constructor
     }
 
-
+    // Method creates new instance of the fragment.
+    public static SimpleFragment newInstance(){
+        return new SimpleFragment();
+    }
 
 
 
